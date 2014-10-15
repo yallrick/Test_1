@@ -40,7 +40,8 @@ public class MyActivity extends Activity {
             public void onClick(View view) {
 
                 Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
-
+            }
+        });
 
         Button btnMatthieuDurindel = (Button) findViewById(R.id.btn_matthieu_durindel);
 
