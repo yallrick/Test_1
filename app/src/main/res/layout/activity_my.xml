@@ -46,6 +46,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mathea"/>
+    <Button
+        android:id="@+id/btnBastien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BastienGrasa"/>
 
     <Button
         android:id="@+id/btn_jules"
