@@ -34,6 +34,15 @@ public class MyActivity extends Activity {
 
                 Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
 
+        Button btnMatthieuDurindel = (Button) findViewById(R.id.btn_matthieu_durindel);
+
+        btnMatthieuDurindel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Hello !", Toast.LENGTH_LONG).show();
+            }
+        });
+
         Button btnMathea = (Button)findViewById(R.id.btn_mathea);
         btnMathea.setOnClickListener(new View.OnClickListener() {
             @Override
