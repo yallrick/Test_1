@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -15,17 +16,24 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
-
         Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
+        Button btnRomainGaillard = (Button) findViewById(R.id.btn_RomainGaillard);
+
 
         btnMonNom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
-
             }
         });
+
+        btnRomainGaillard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Bonjour M.Gaillard !", Toast.LENGTH_LONG).show();
+            }
+        });
+
 
         Button btnMatthieuDurindel = (Button) findViewById(R.id.btn_matthieu_durindel);
 
