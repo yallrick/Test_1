@@ -27,6 +27,15 @@ public class MyActivity extends Activity {
             }
         });
 
+        Button btnMatthieuDurindel = (Button) findViewById(R.id.btn_matthieu_durindel);
+
+        btnMatthieuDurindel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Hello !", Toast.LENGTH_LONG).show();
+            }
+        });
+
 
         // https://github.com/yallrick/Test_1.git
 
