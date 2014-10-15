@@ -26,6 +26,12 @@
         android:text="@string/mon_nom_Denuc"/>
 
     <Button
+        android:id="@+id/btn_RomainGaillard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RomainGaillard"/>
+
+    <Button
         android:id="@+id/btn_matthieu_durindel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
