@@ -14,6 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+
+
+
     <Button
         android:id="@+id/btn_mon_nom"
         android:layout_width="wrap_content"
@@ -25,6 +28,12 @@
         android:layout_height="wrap_content"
         android:text="@string/louka"/>
 
+
+    <Button
+        android:id="@+id/btn_mon_nom_Denuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mon_nom_Denuc"/>
 
     <Button
         android:id="@+id/btn_RomainGaillard"
@@ -43,5 +52,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mathea"/>
+    <Button
+        android:id="@+id/btnBastien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BastienGrasa"/>
+
+    <Button
+        android:id="@+id/btn_jules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jules"/>
+
 
 </LinearLayout>

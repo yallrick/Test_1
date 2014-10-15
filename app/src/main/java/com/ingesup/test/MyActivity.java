@@ -18,8 +18,15 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_my);
         Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
         Button btnRomainGaillard = (Button) findViewById(R.id.btn_RomainGaillard);
+        Button btnBastienGrasa = (Button) findViewById(R.id.btnBastien);
 
 
+        btnBastienGrasa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Hey Jude", Toast.LENGTH_LONG).show();
+            }
+        });
         btnMonNom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,7 +40,15 @@ public class MyActivity extends Activity {
                 Toast.makeText(getApplicationContext(), "Bonjour M.Gaillard !", Toast.LENGTH_LONG).show();
             }
         });
+        Button btnMonNomDenuc = (Button)findViewById(R.id.btn_mon_nom_Denuc);
 
+        btnMonNomDenuc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Le belge pues", Toast.LENGTH_LONG).show();
+            }
+        });
 
         Button btnMatthieuDurindel = (Button) findViewById(R.id.btn_matthieu_durindel);
 
@@ -41,6 +56,16 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Hello !", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        Button btnJules = (Button)findViewById(R.id.btn_jules);
+        btnJules.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Salut toi !", Toast.LENGTH_LONG).show();
+
             }
         });
 
