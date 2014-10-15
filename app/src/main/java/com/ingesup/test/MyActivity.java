@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -18,15 +19,8 @@ public class MyActivity extends Activity {
         Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
         Button btnRomainGaillard = (Button) findViewById(R.id.btn_RomainGaillard);
         Button btnBastienGrasa = (Button) findViewById(R.id.btnBastien);
-        Button btnValentinBaldini = (Button) findViewById(R.id.btnValentinB);
 
 
-        btnValentinBaldini.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Impose ton style", Toast.LENGTH_LONG).show();
-            }
-        });
         btnBastienGrasa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

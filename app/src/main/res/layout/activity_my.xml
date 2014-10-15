@@ -33,13 +33,6 @@
         android:text="@string/julien_T"/>
 
     <Button
-        android:id="@+id/btn_louka_hanuise"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/louka"/>
-
-
-    <Button
         android:id="@+id/btn_mon_nom_Denuc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,10 +67,5 @@
         android:layout_height="wrap_content"
         android:text="@string/jules"/>
 
-    <Button
-        android:id="@+id/btn_Alex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/alex"/>
 
 </LinearLayout>
