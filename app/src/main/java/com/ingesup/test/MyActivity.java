@@ -18,11 +18,22 @@ public class MyActivity extends Activity {
 
         Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
 
+
         btnMonNom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        Button btnJules = (Button)findViewById(R.id.btn_jules);
+        btnJules.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Salut toi !", Toast.LENGTH_LONG).show();
 
             }
         });
