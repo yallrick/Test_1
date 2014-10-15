@@ -15,7 +15,11 @@
         android:layout_height="wrap_content" />
 
 
-
+    <Button
+        android:id="@+id/btnValentinB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnValentin1" />
 
     <Button
         android:id="@+id/btn_mon_nom"
