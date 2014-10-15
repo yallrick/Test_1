@@ -26,6 +26,13 @@ public class MyActivity extends Activity {
 
             }
         });
+        Button btnMonNomDenuc = (Button)findViewById(R.id.btn_mon_nom_Denuc);
+
+        btnMonNomDenuc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
 
 
         // https://github.com/yallrick/Test_1.git
