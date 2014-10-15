@@ -77,6 +77,14 @@ public class MyActivity extends Activity {
             }
         });
 
+        Button btnAlex = (Button)findViewById(R.id.btn_Alex);
+        btnMathea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coucou!", Toast.LENGTH_LONG).show();
+            }
+        });
+
 
         // https://github.com/yallrick/Test_1.git
 
