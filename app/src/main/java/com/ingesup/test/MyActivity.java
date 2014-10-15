@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MyActivity extends Activity {
@@ -12,6 +15,21 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+
+        Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
+
+        btnMonNom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+
+        // https://github.com/yallrick/Test_1.git
+
     }
 
 
