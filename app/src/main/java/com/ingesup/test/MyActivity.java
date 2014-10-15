@@ -46,7 +46,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(getApplicationContext(), "Le belge pues", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Jules <3 <3 <3", Toast.LENGTH_LONG).show();
             }
         });
 
