@@ -69,6 +69,14 @@ public class MyActivity extends Activity {
             }
         });
 
+        Button btnMaxime = (Button)findViewById(R.id.btn_maxime_thizeau);
+        btnMaxime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Wesh", Toast.LENGTH_LONG).show();
+            }
+        });
+
         Button btnMathea = (Button)findViewById(R.id.btn_mathea);
         btnMathea.setOnClickListener(new View.OnClickListener() {
             @Override
