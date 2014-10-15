@@ -19,6 +19,7 @@ public class MyActivity extends Activity {
         Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
         Button btnRomainGaillard = (Button) findViewById(R.id.btn_RomainGaillard);
         Button btnBastienGrasa = (Button) findViewById(R.id.btnBastien);
+        Button btnMurat = (Button) findViewById(R.id.btn_murat);
 
 
         btnBastienGrasa.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +32,13 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        btnMurat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Yo !", Toast.LENGTH_LONG).show();
             }
         });
 
