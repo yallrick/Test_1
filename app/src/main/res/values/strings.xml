@@ -5,6 +5,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="mon_nom">Vincent del Valle</string>
+    <string name="mon_nom_Denuc">Thibault Denuc</string>
+    <string name="matthieu_durindel">Matthieu Durindel</string>
     <string name="mathea">Mathéa Renaudie</string>
     <string name="jules">Jules Duvivier</string>
+    <string name="RomainGaillard">Romain Gaillard</string>
+
 </resources>
