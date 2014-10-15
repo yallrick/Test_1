@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -15,15 +16,64 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
-
         Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
+        Button btnRomainGaillard = (Button) findViewById(R.id.btn_RomainGaillard);
+        Button btnBastienGrasa = (Button) findViewById(R.id.btnBastien);
 
+
+        btnBastienGrasa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Hey Jude", Toast.LENGTH_LONG).show();
+            }
+        });
         btnMonNom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
+            }
+        });
 
+        btnRomainGaillard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Bonjour M.Gaillard !", Toast.LENGTH_LONG).show();
+            }
+        });
+        Button btnMonNomDenuc = (Button)findViewById(R.id.btn_mon_nom_Denuc);
+
+        btnMonNomDenuc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Le belge pues", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        Button btnMatthieuDurindel = (Button) findViewById(R.id.btn_matthieu_durindel);
+
+        btnMatthieuDurindel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Hello !", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        Button btnJules = (Button)findViewById(R.id.btn_jules);
+        btnJules.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Salut toi !", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        Button btnMathea = (Button)findViewById(R.id.btn_mathea);
+        btnMathea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coucou toi !", Toast.LENGTH_LONG).show();
             }
         });
 
