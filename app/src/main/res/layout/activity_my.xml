@@ -63,11 +63,5 @@
         android:layout_height="wrap_content"
         android:text="@string/jules"/>
 
-    <Button
-        android:id="@+id/btn_murat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mon_nom_Murat"/>
-
 
 </LinearLayout>

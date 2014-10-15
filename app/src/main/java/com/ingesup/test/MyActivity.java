@@ -54,7 +54,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(getApplicationContext(), "Le belge pues", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Jules <3 <3 <3", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -82,6 +82,14 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Coucou toi !", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        Button btnAlex = (Button)findViewById(R.id.btn_Alex);
+        btnMathea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Coucou!", Toast.LENGTH_LONG).show();
             }
         });
 
