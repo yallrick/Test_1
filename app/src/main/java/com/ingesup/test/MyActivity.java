@@ -21,15 +21,9 @@ public class MyActivity extends Activity {
         btnMonNom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Toast.makeText(getApplicationContext(), "Bonjour !", Toast.LENGTH_LONG).show();
-
             }
         });
-
-
-        // https://github.com/yallrick/Test_1.git
-
     }
 
 
