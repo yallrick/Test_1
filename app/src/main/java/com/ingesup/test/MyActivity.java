@@ -18,8 +18,15 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_my);
         Button btnMonNom = (Button)findViewById(R.id.btn_mon_nom);
         Button btnRomainGaillard = (Button) findViewById(R.id.btn_RomainGaillard);
+        Button btnBastienGrasa = (Button) findViewById(R.id.btnBastien);
 
 
+        btnBastienGrasa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"Hey Jude", Toast.LENGTH_LONG).show();
+            }
+        });
         btnMonNom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
